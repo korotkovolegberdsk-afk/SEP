@@ -28,83 +28,171 @@
         <!-- Панель инструментов -->
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
-                <Button Content="📂 Открыть" FontSize="14"/>
+                <Button Content="📂 Открыть"/>
                 <Separator/>
-                <Button Content="📦 Компоненты" FontSize="14"/>
-                <Button Content="🖨 Трафарет" FontSize="14"/>
-                <Button Content="📄 PDF" FontSize="14"/>
+                <Button Content="📦 Компоненты"/>
+                <Button Content="🖨 Трафарет"/>
+                <Button Content="📄 PDF"/>
             </ToolBar>
         </ToolBarTray>
 
         <!-- Строка состояния -->
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
-                <TextBlock Text="Готов"/>
+                <TextBlock Text="Release 0.3.0"/>
             </StatusBarItem>
         </StatusBar>
 
-        <!-- Основная область -->
         <Grid>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="340"/>
                 <ColumnDefinition Width="5"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Левая панель -->
-            <GroupBox Header="Библиотека компонентов"
-                      Grid.Column="0"
+            <!-- Package Manager -->
+            <GroupBox Grid.Column="0"
                       Margin="5"
-                      FontSize="16">
+                      Header="Package Manager">
 
-                <TreeView x:Name="PackagesTree"
-                          FontSize="15"/>
+                <DockPanel Margin="5">
+
+                    <!-- Поиск -->
+                    <TextBox x:Name="SearchBox"
+                             DockPanel.Dock="Top"
+                             Height="30"
+                             Margin="0,0,0,8"
+                             FontSize="15"
+                             VerticalContentAlignment="Center"
+                             TextChanged="SearchBox_TextChanged"/>
+
+                    <!-- Панель кнопок -->
+                    <StackPanel DockPanel.Dock="Top"
+                                Orientation="Horizontal"
+                                Margin="0,0,0,8">
+
+                        <Button x:Name="NewPackageButton"
+                                Width="90"
+                                Height="30"
+                                Margin="0,0,5,0"
+                                Content="➕ Новый"/>
+
+                        <Button x:Name="CopyPackageButton"
+                                Width="110"
+                                Height="30"
+                                Margin="0,0,5,0"
+                                Content="⧉ Копировать"
+                                IsEnabled="False"/>
+
+                        <Button x:Name="DeletePackageButton"
+                                Width="90"
+                                Height="30"
+                                Content="🗑 Удалить"
+                                IsEnabled="False"/>
+
+                    </StackPanel>
+
+                    <!-- Дерево -->
+                    <TreeView x:Name="PackagesTree"/>
+
+                </DockPanel>
 
             </GroupBox>
 
             <!-- Разделитель -->
             <GridSplitter Grid.Column="1"
                           Width="5"
-                          HorizontalAlignment="Stretch"
-                          VerticalAlignment="Stretch"/>
+                          HorizontalAlignment="Stretch"/>
 
-            <!-- Правая часть -->
-            <Grid Grid.Column="2"
-                  Margin="5">
+            <!-- Правая панель -->
+            <Border Grid.Column="2"
+                    Margin="5"
+                    BorderBrush="Gray"
+                    BorderThickness="1"
+                    Padding="20">
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
+                <Grid>
 
-                <Border BorderBrush="LightGray"
-                        BorderThickness="1"
-                        Background="#F8F8F8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
 
-                    <TextBlock Text="Просмотр корпуса"
-                               FontSize="22"
-                               FontWeight="Bold"
-                               VerticalAlignment="Center"
-                               Margin="15,0"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="170"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-                </Border>
+                    <TextBlock Text="Название:" FontWeight="Bold"/>
+                    <TextBlock Grid.Column="1" x:Name="NameText"/>
 
-                <Border Grid.Row="1"
-                        Margin="0,5,0,0"
-                        BorderBrush="Gray"
-                        BorderThickness="1"
-                        Background="White">
+                    <TextBlock Grid.Row="1"
+                               Text="Тип:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="1"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="TypeText"/>
 
-                    <TextBlock Text="Выберите корпус слева"
-                               FontSize="28"
-                               Foreground="Gray"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2"
+                               Text="Длина:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="2"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="LengthText"/>
 
-                </Border>
+                    <TextBlock Grid.Row="3"
+                               Text="Ширина:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="3"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="WidthText"/>
 
-            </Grid>
+                    <TextBlock Grid.Row="4"
+                               Text="Высота:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="4"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="HeightText"/>
+
+                    <TextBlock Grid.Row="5"
+                               Text="Выводов:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="5"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="PinsText"/>
+
+                    <StackPanel Grid.Row="6"
+                                Grid.ColumnSpan="2"
+                                Margin="0,20,0,0">
+
+                        <TextBlock Text="Описание:"
+                                   FontWeight="Bold"/>
+
+                        <TextBlock x:Name="DescriptionText"
+                                   Margin="0,5,0,0"
+                                   TextWrapping="Wrap"/>
+
+                    </StackPanel>
+
+                </Grid>
+
+            </Border>
 
         </Grid>
 

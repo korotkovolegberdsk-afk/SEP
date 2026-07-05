@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEP.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fce803f35b29489d0e30d4ea4e8933cc9c4baab7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058037f6eaa304b6fddbec5f319b968cfe213f16")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEP.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEP.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

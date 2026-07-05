@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+
+# Build
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# NuGet
+packages/
+
+# Windows
+Thumbs.db
+Desktop.ini
