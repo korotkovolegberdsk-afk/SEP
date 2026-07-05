@@ -8,4 +8,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SEP.Core\SEP.Core.csproj" />
+    <ProjectReference Include="..\SEP.Database\SEP.Database.csproj" />
+  </ItemGroup>
+
 </Project>

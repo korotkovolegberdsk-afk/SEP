@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37411.7 d17.14
+VisualStudioVersion = 17.14.37411.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEP.Core", "SEP.Core\SEP.Core.csproj", "{A95AE7FF-F099-47F0-BE89-939F845FD869}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEP.Viewer", "SEP.Viewer\SEP.Viewer.csproj", "{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEP.Database", "SEP.Database\SEP.Database.csproj", "{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A95AE7FF-F099-47F0-BE89-939F845FD869}|SEP.Core\\SEP.Core.csproj|d:\\projects\\sep\\sep.core\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A95AE7FF-F099-47F0-BE89-939F845FD869}|SEP.Core\\SEP.Core.csproj|solutionrelative:sep.core\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|d:\\projects\\sep\\sep.database\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|solutionrelative:sep.database\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|d:\\projects\\sep\\sep.database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|solutionrelative:sep.database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|d:\\projects\\sep\\sep.database\\sep.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|solutionrelative:sep.database\\sep.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\sep.viewer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\sep.viewer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +38,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Package.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\Models\\Package.cs",
+              "RelativeDocumentMoniker": "SEP.Database\\Models\\Package.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Database\\Models\\Package.cs",
+              "RelativeToolTip": "SEP.Database\\Models\\Package.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T11:19:51.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SEP.Database",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj",
+              "RelativeDocumentMoniker": "SEP.Database\\SEP.Database.csproj",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj",
+              "RelativeToolTip": "SEP.Database\\SEP.Database.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-05T10:48:11.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "SEP.Database\\DatabaseManager.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Database\\DatabaseManager.cs",
+              "RelativeToolTip": "SEP.Database\\DatabaseManager.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswEUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:51:20.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SEP.Viewer",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\SEP.Viewer.csproj",
+              "RelativeDocumentMoniker": "SEP.Viewer\\SEP.Viewer.csproj",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\SEP.Viewer.csproj",
+              "RelativeToolTip": "SEP.Viewer\\SEP.Viewer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-05T10:19:06.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SEP.Viewer\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\AssemblyInfo.cs",
+              "RelativeToolTip": "SEP.Viewer\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:15:03.058Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,22 +125,9 @@
               "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
               "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T10:03:01.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Package.cs",
-              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Core\\Package.cs",
-              "RelativeDocumentMoniker": "SEP.Core\\Package.cs",
-              "ToolTip": "D:\\Projects\\SEP\\SEP.Core\\Package.cs",
-              "RelativeToolTip": "SEP.Core\\Package.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T09:36:01.41Z",
               "EditorCaption": ""
             }
           ]

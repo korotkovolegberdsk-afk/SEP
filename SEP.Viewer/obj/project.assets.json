@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "SEP.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SEP.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEP.Core.dll": {}
+        }
+      },
+      "SEP.Database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SEP.Database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEP.Database.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SEP.Core/1.0.0": {
+      "type": "project",
+      "path": "../SEP.Core/SEP.Core.csproj",
+      "msbuildProject": "../SEP.Core/SEP.Core.csproj"
+    },
+    "SEP.Database/1.0.0": {
+      "type": "project",
+      "path": "../SEP.Database/SEP.Database.csproj",
+      "msbuildProject": "../SEP.Database/SEP.Database.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "SEP.Core >= 1.0.0",
+      "SEP.Database >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ok\\.nuget\\packages\\": {}
@@ -33,7 +68,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\SEP\\SEP.Core\\SEP.Core.csproj": {
+              "projectPath": "D:\\Projects\\SEP\\SEP.Core\\SEP.Core.csproj"
+            },
+            "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj": {
+              "projectPath": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
