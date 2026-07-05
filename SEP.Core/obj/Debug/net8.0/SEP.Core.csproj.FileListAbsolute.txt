@@ -1,0 +1,12 @@
+D:\Projects\SEP\SEP.Core\bin\Debug\net8.0\SEP.Core.deps.json
+D:\Projects\SEP\SEP.Core\bin\Debug\net8.0\SEP.Core.dll
+D:\Projects\SEP\SEP.Core\bin\Debug\net8.0\SEP.Core.pdb
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.AssemblyInfoInputs.cache
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.AssemblyInfo.cs
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.csproj.CoreCompileInputs.cache
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.sourcelink.json
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.dll
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\refint\SEP.Core.dll
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\SEP.Core.pdb
+D:\Projects\SEP\SEP.Core\obj\Debug\net8.0\ref\SEP.Core.dll

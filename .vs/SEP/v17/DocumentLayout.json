@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\SEP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95AE7FF-F099-47F0-BE89-939F845FD869}|SEP.Core\\SEP.Core.csproj|d:\\projects\\sep\\sep.core\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95AE7FF-F099-47F0-BE89-939F845FD869}|SEP.Core\\SEP.Core.csproj|solutionrelative:sep.core\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
+              "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T10:03:02.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:03:01.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Package.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Core\\Package.cs",
+              "RelativeDocumentMoniker": "SEP.Core\\Package.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Core\\Package.cs",
+              "RelativeToolTip": "SEP.Core\\Package.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T09:36:01.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
