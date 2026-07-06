@@ -99,6 +99,8 @@ public partial class MainWindow : Window
 
         if (editor.ShowDialog() == true)
         {
+            _database.UpdatePackage(package);
+
             ShowPackage(package);
 
             item.Header = package.Name;

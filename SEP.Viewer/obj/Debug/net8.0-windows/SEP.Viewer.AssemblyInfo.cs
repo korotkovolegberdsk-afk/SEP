@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEP.Viewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+058037f6eaa304b6fddbec5f319b968cfe213f16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3453bf5b37731e4532de6a1e1285ec849661bab")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEP.Viewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEP.Viewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
