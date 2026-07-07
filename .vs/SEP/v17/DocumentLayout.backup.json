@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\SEP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\packageeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\packageeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|d:\\projects\\sep\\sep.database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|solutionrelative:sep.database\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\packageeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\packageeditor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\packageeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\packageeditor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{298EB0C6-C7B9-442F-BC5F-68C96B1670F6}|SEP.Database\\SEP.Database.csproj|d:\\projects\\sep\\sep.database\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\App.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\App.xaml.cs",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "SEP.Viewer\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:31:52.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T15:31:52.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "SEP.Database\\DatabaseContext.cs",
@@ -91,21 +90,19 @@
               "RelativeToolTip": "SEP.Database\\DatabaseContext.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAzwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T15:40:55.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T15:40:55.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PackageEditor.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\PackageEditor.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\PackageEditor.xaml.cs",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\PackageEditor.xaml.cs",
               "RelativeToolTip": "SEP.Viewer\\PackageEditor.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwDsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T15:06:30.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T15:06:30.04Z"
             },
             {
               "$type": "Document",
@@ -121,31 +118,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
               "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAmwGUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T10:03:01.584Z",
+              "WhenOpened": "2026-07-05T10:03:01.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml*",
+              "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-05T10:03:02.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml",
-              "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
-              "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-05T10:03:02.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "SEP.Database\\DatabaseManager.cs",
@@ -153,12 +150,11 @@
               "RelativeToolTip": "SEP.Database\\DatabaseManager.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T10:51:20.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T10:51:20.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PackageEditor.xaml",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\PackageEditor.xaml",
               "RelativeDocumentMoniker": "SEP.Viewer\\PackageEditor.xaml",
