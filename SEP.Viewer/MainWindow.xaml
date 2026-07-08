@@ -8,7 +8,6 @@
 
     <DockPanel>
 
-        <!-- Главное меню -->
         <Menu DockPanel.Dock="Top" FontSize="16">
             <MenuItem Header="_Файл">
                 <MenuItem Header="Открыть базу данных"/>
@@ -25,7 +24,6 @@
             <MenuItem Header="_Справка"/>
         </Menu>
 
-        <!-- Панель инструментов -->
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
                 <Button Content="📂 Открыть"/>
@@ -36,7 +34,6 @@
             </ToolBar>
         </ToolBarTray>
 
-        <!-- Строка состояния -->
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
                 <TextBlock Text="Release 0.3.0"/>
@@ -51,14 +48,12 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Package Manager -->
             <GroupBox Grid.Column="0"
                       Margin="5"
                       Header="Package Manager">
 
                 <DockPanel Margin="5">
 
-                    <!-- Поиск -->
                     <TextBox x:Name="SearchBox"
                              DockPanel.Dock="Top"
                              Height="30"
@@ -67,7 +62,6 @@
                              VerticalContentAlignment="Center"
                              TextChanged="SearchBox_TextChanged"/>
 
-                    <!-- Панель кнопок -->
                     <StackPanel DockPanel.Dock="Top"
                                 Orientation="Horizontal"
                                 Margin="0,0,0,8">
@@ -78,35 +72,30 @@
                                 Margin="0,0,5,0"
                                 Content="➕ Новый"/>
 
-
                         <Button x:Name="CopyPackageButton"
                                 Width="110"
                                 Height="30"
                                 Margin="0,0,5,0"
                                 Content="⧉ Копировать"
-                                IsEnabled="False"/>
+                                />
 
                         <Button x:Name="DeletePackageButton"
                                 Width="90"
                                 Height="30"
-                                Content="🗑 Удалить"
-                                IsEnabled="False"/>
+                                Content="🗑 Удалить"/>
 
                     </StackPanel>
 
-                    <!-- Дерево -->
                     <TreeView x:Name="PackagesTree"/>
 
                 </DockPanel>
 
             </GroupBox>
 
-            <!-- Разделитель -->
             <GridSplitter Grid.Column="1"
                           Width="5"
                           HorizontalAlignment="Stretch"/>
 
-            <!-- Правая панель -->
             <Border Grid.Column="2"
                     Margin="5"
                     BorderBrush="Gray"

@@ -14,6 +14,10 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
 
+        NewPackageButton.Click += NewPackageButton_Click;
+        DeletePackageButton.Click += DeletePackageButton_Click;
+        CopyPackageButton.Click += CopyPackageButton_Click;
+
         LoadPackages();
 
         PackagesTree.SelectedItemChanged += PackagesTree_SelectedItemChanged;
@@ -105,6 +109,76 @@ public partial class MainWindow : Window
 
             item.Header = package.Name;
         }
+    }
+
+    private void NewPackageButton_Click(object sender, RoutedEventArgs e)
+    {
+        PackageEditor editor = new()
+        {
+            Owner = this
+        };
+
+        if (editor.ShowDialog() != true)
+            return;
+
+        _database.AddPackage(editor.CurrentPackage);
+
+        LoadPackages();
+        SelectFirstPackage();
+    }
+
+    private void DeletePackageButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (PackagesTree.SelectedItem is not TreeViewItem item)
+            return;
+
+        if (item.Tag is not Package package)
+            return;
+
+        MessageBoxResult result = MessageBox.Show(
+            $"Удалить корпус \"{package.Name}\"?",
+            "Удаление корпуса",
+            MessageBoxButton.YesNo,
+            MessageBoxImage.Question);
+
+        if (result != MessageBoxResult.Yes)
+            return;
+
+        _database.RemovePackage(package);
+
+        LoadPackages();
+        SelectFirstPackage();
+    }
+
+    private void CopyPackageButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (PackagesTree.SelectedItem is not TreeViewItem item || item.Tag is not Package src)
+            return;
+
+        Package copy = new()
+        {
+            Name = src.Name + "_COPY",
+            PackageType = src.PackageType,
+            Description = src.Description,
+            Length = src.Length,
+            Width = src.Width,
+            Height = src.Height,
+            Pitch = src.Pitch,
+            Pins = src.Pins
+        };
+
+        PackageEditor editor = new(copy)
+        {
+            Owner = this
+        };
+
+        if (editor.ShowDialog() != true)
+            return;
+
+        _database.AddPackage(editor.CurrentPackage);
+
+        LoadPackages();
+        SelectFirstPackage();
     }
 
     private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)

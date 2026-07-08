@@ -506,6 +506,16 @@
         "runtime": {
           "bin/placeholder/SEP.Database.dll": {}
         }
+      },
+      "SEP.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SEP.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEP.Library.dll": {}
+        }
       }
     }
   },
@@ -1205,12 +1215,18 @@
       "type": "project",
       "path": "../SEP.Database/SEP.Database.csproj",
       "msbuildProject": "../SEP.Database/SEP.Database.csproj"
+    },
+    "SEP.Library/1.0.0": {
+      "type": "project",
+      "path": "../SEP.Library/SEP.Library.csproj",
+      "msbuildProject": "../SEP.Library/SEP.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "SEP.Core >= 1.0.0",
-      "SEP.Database >= 1.0.0"
+      "SEP.Database >= 1.0.0",
+      "SEP.Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1245,6 +1261,9 @@
             },
             "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj": {
               "projectPath": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj"
+            },
+            "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj": {
+              "projectPath": "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj"
             }
           }
         }
