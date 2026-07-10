@@ -1,8 +1,11 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using Microsoft.Win32;
 using SEP.Database;
 using SEP.Database.Models;
+using SEP.Import.Parsers;
+using SEP.Viewer.Views;
 
 namespace SEP.Viewer;
 
@@ -18,6 +21,8 @@ public partial class MainWindow : Window
         DeletePackageButton.Click += DeletePackageButton_Click;
         CopyPackageButton.Click += CopyPackageButton_Click;
 
+        ImportYGXMenuItem.Click += ImportYGXMenuItem_Click;
+
         LoadPackages();
 
         PackagesTree.SelectedItemChanged += PackagesTree_SelectedItemChanged;
@@ -25,6 +30,41 @@ public partial class MainWindow : Window
 
         SelectFirstPackage();
     }
+
+
+    private void ImportYGXMenuItem_Click(object sender, RoutedEventArgs e)
+    {
+        OpenFileDialog dialog = new()
+        {
+            Filter = "YGX files (*.ygx)|*.ygx|All files (*.*)|*.*"
+        };
+
+        if (dialog.ShowDialog() != true)
+            return;
+
+        try
+        {
+            YGXParser parser = new();
+
+            var result = parser.Parse(dialog.FileName);
+
+            YGXImportWindow window = new(result)
+            {
+                Owner = this
+            };
+
+            window.ShowDialog();
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(
+                ex.Message,
+                "Ошибка импорта YGX",
+                MessageBoxButton.OK,
+                MessageBoxImage.Error);
+        }
+    }
+
 
     private void LoadPackages(string filter = "")
     {
@@ -57,6 +97,7 @@ public partial class MainWindow : Window
         PackagesTree.Items.Add(chip);
     }
 
+
     private void SelectFirstPackage()
     {
         if (PackagesTree.Items.Count == 0)
@@ -77,6 +118,7 @@ public partial class MainWindow : Window
             ShowPackage(package);
     }
 
+
     private void PackagesTree_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
     {
         if (PackagesTree.SelectedItem is not TreeViewItem item)
@@ -87,6 +129,7 @@ public partial class MainWindow : Window
 
         ShowPackage(package);
     }
+
 
     private void PackagesTree_MouseDoubleClick(object sender, MouseButtonEventArgs e)
     {
@@ -111,6 +154,7 @@ public partial class MainWindow : Window
         }
     }
 
+
     private void NewPackageButton_Click(object sender, RoutedEventArgs e)
     {
         PackageEditor editor = new()
@@ -126,6 +170,7 @@ public partial class MainWindow : Window
         LoadPackages();
         SelectFirstPackage();
     }
+
 
     private void DeletePackageButton_Click(object sender, RoutedEventArgs e)
     {
@@ -150,9 +195,11 @@ public partial class MainWindow : Window
         SelectFirstPackage();
     }
 
+
     private void CopyPackageButton_Click(object sender, RoutedEventArgs e)
     {
-        if (PackagesTree.SelectedItem is not TreeViewItem item || item.Tag is not Package src)
+        if (PackagesTree.SelectedItem is not TreeViewItem item ||
+            item.Tag is not Package src)
             return;
 
         Package copy = new()
@@ -181,11 +228,13 @@ public partial class MainWindow : Window
         SelectFirstPackage();
     }
 
+
     private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
     {
         LoadPackages(SearchBox.Text);
         SelectFirstPackage();
     }
+
 
     private void ShowPackage(Package package)
     {
@@ -197,6 +246,7 @@ public partial class MainWindow : Window
         HeightText.Text = $"{package.Height:F2} mm";
         PinsText.Text = package.Pins.ToString();
     }
+
 
     private void Exit_Click(object sender, RoutedEventArgs e)
     {

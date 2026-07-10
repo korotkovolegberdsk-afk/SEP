@@ -142,6 +142,73 @@
         }
       }
     },
+    "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj": {
+      "version": "0.4.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj",
+        "projectName": "SEP.Import",
+        "projectPath": "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj",
+        "packagesPath": "C:\\Users\\Ok\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\SEP\\SEP.Import\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "C:\\Users\\Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "Microsoft.EntityFrameworkCore": "9.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
+            "Microsoft.Extensions.Logging": "9.0.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj": {
       "version": "0.4.0",
       "restore": {
@@ -212,6 +279,7 @@
         "packagesPath": "C:\\Users\\Ok\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\SEP\\SEP.Viewer\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "C:\\Users\\Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -232,6 +300,9 @@
               },
               "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj": {
                 "projectPath": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj"
+              },
+              "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj": {
+                "projectPath": "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj"
               },
               "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj": {
                 "projectPath": "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj"
@@ -254,6 +325,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "centralPackageVersions": {
+            "Microsoft.EntityFrameworkCore": "9.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
+            "Microsoft.Extensions.Logging": "9.0.0"
+          },
           "imports": [
             "net461",
             "net462",

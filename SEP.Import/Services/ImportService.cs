@@ -1,23 +1,13 @@
-﻿using SEP.Import.Interfaces;
-using SEP.Import.Models;
+﻿using SEP.Import.Models;
+using SEP.Import.Parsers;
 
 namespace SEP.Import.Services;
 
-public class ImportService
+public class YGXImportTest
 {
-    private readonly Dictionary<string, IImportParser> _parsers = new();
-
-    public void Register(string extension, IImportParser parser)
+    public ImportResult Load(string fileName)
     {
-        _parsers[extension.ToLower()] = parser;
-    }
-
-    public ImportResult Import(string fileName)
-    {
-        string extension = Path.GetExtension(fileName).ToLower();
-
-        if (!_parsers.TryGetValue(extension, out IImportParser? parser))
-            throw new NotSupportedException($"Формат {extension} не поддерживается.");
+        YGXParser parser = new();
 
         return parser.Parse(fileName);
     }

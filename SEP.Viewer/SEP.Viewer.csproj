@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SEP.Core\SEP.Core.csproj" />
     <ProjectReference Include="..\SEP.Database\SEP.Database.csproj" />
+    <ProjectReference Include="..\SEP.Import\SEP.Import.csproj" />
     <ProjectReference Include="..\SEP.Library\SEP.Library.csproj" />
   </ItemGroup>
 
