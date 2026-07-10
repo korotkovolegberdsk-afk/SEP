@@ -2567,7 +2567,7 @@
     "C:\\Users\\Ok\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "0.4.0",
     "restore": {
       "projectUniqueName": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj",
       "projectName": "SEP.Database",

@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Projects\\SEP\\SEP.Core\\SEP.Core.csproj": {
-      "version": "1.0.0",
+      "version": "0.4.0",
       "restore": {
         "projectUniqueName": "D:\\Projects\\SEP\\SEP.Core\\SEP.Core.csproj",
         "projectName": "SEP.Core",
@@ -66,7 +66,7 @@
       }
     },
     "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj": {
-      "version": "1.0.0",
+      "version": "0.4.0",
       "restore": {
         "projectUniqueName": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj",
         "projectName": "SEP.Database",
@@ -143,7 +143,7 @@
       }
     },
     "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj": {
-      "version": "1.0.0",
+      "version": "0.4.0",
       "restore": {
         "projectUniqueName": "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj",
         "projectName": "SEP.Library",
@@ -204,7 +204,7 @@
       }
     },
     "D:\\Projects\\SEP\\SEP.Viewer\\SEP.Viewer.csproj": {
-      "version": "1.0.0",
+      "version": "0.4.0",
       "restore": {
         "projectUniqueName": "D:\\Projects\\SEP\\SEP.Viewer\\SEP.Viewer.csproj",
         "projectName": "SEP.Viewer",

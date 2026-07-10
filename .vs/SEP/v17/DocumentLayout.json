@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Projects\\SEP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\services\\importservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\services\\importservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\parsers\\ygxparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\parsers\\ygxparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\interfaces\\iimportparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\interfaces\\iimportparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\sep.import.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\sep.import.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\models\\importresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\models\\importresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|d:\\projects\\sep\\sep.import\\models\\importcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A20E49-7F2D-4F6C-9B61-A243FBFEB849}|SEP.Import\\SEP.Import.csproj|solutionrelative:sep.import\\models\\importcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|d:\\projects\\sep\\sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DE232C9-F70F-4BAE-9EF6-95708F1622FD}|SEP.Viewer\\SEP.Viewer.csproj|solutionrelative:sep.viewer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,11 +114,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImportService.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\Services\\ImportService.cs",
+              "RelativeDocumentMoniker": "SEP.Import\\Services\\ImportService.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\Services\\ImportService.cs",
+              "RelativeToolTip": "SEP.Import\\Services\\ImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T12:30:22.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "YGXParser.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\Parsers\\YGXParser.cs",
+              "RelativeDocumentMoniker": "SEP.Import\\Parsers\\YGXParser.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\Parsers\\YGXParser.cs",
+              "RelativeToolTip": "SEP.Import\\Parsers\\YGXParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T12:25:26.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IImportParser.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\Interfaces\\IImportParser.cs",
+              "RelativeDocumentMoniker": "SEP.Import\\Interfaces\\IImportParser.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\Interfaces\\IImportParser.cs",
+              "RelativeToolTip": "SEP.Import\\Interfaces\\IImportParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T19:18:42.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImportResult.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\Models\\ImportResult.cs",
+              "RelativeDocumentMoniker": "SEP.Import\\Models\\ImportResult.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\Models\\ImportResult.cs",
+              "RelativeToolTip": "SEP.Import\\Models\\ImportResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T19:17:02.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImportComponent.cs",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\Models\\ImportComponent.cs",
+              "RelativeDocumentMoniker": "SEP.Import\\Models\\ImportComponent.cs",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\Models\\ImportComponent.cs",
+              "RelativeToolTip": "SEP.Import\\Models\\ImportComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T18:57:11.32Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SEP.Import.csproj",
+              "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj",
+              "RelativeDocumentMoniker": "SEP.Import\\SEP.Import.csproj",
+              "ToolTip": "D:\\Projects\\SEP\\SEP.Import\\SEP.Import.csproj",
+              "RelativeToolTip": "SEP.Import\\SEP.Import.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-09T17:27:57.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ComponentRepository.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\Repositories\\ComponentRepository.cs",
               "RelativeDocumentMoniker": "SEP.Library\\Repositories\\ComponentRepository.cs",
@@ -102,12 +212,11 @@
               "RelativeToolTip": "SEP.Library\\Repositories\\ComponentRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T16:05:43.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T16:05:43.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LibraryService.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\Services\\LibraryService.cs",
               "RelativeDocumentMoniker": "SEP.Library\\Services\\LibraryService.cs",
@@ -115,29 +224,23 @@
               "RelativeToolTip": "SEP.Library\\Services\\LibraryService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwCEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T15:42:35.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:42:35.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SEP.Library",
+              "DocumentIndex": 10,
+              "Title": "SEP.Library.csproj",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj",
               "RelativeDocumentMoniker": "SEP.Library\\SEP.Library.csproj",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Library\\SEP.Library.csproj",
               "RelativeToolTip": "SEP.Library\\SEP.Library.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-08T15:41:31.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2026-07-08T15:41:31.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Package.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\Models\\Package.cs",
               "RelativeDocumentMoniker": "SEP.Library\\Models\\Package.cs",
@@ -145,12 +248,11 @@
               "RelativeToolTip": "SEP.Library\\Models\\Package.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T15:34:38.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:34:38.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Manufacturer.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\Models\\Manufacturer.cs",
               "RelativeDocumentMoniker": "SEP.Library\\Models\\Manufacturer.cs",
@@ -158,12 +260,11 @@
               "RelativeToolTip": "SEP.Library\\Models\\Manufacturer.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T15:31:41.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:31:41.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Component.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Library\\Models\\Component.cs",
               "RelativeDocumentMoniker": "SEP.Library\\Models\\Component.cs",
@@ -171,25 +272,23 @@
               "RelativeToolTip": "SEP.Library\\Models\\Component.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T15:26:03.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:26:03.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml.cs",
               "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAkwMcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAuwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T10:03:01.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T10:03:01.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "SEP.Viewer.csproj",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\SEP.Viewer.csproj",
               "RelativeDocumentMoniker": "SEP.Viewer\\SEP.Viewer.csproj",
@@ -197,12 +296,11 @@
               "RelativeToolTip": "SEP.Viewer\\SEP.Viewer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-05T10:19:06.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T10:19:06.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Package.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\Models\\Package.cs",
               "RelativeDocumentMoniker": "SEP.Database\\Models\\Package.cs",
@@ -214,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "PackageEditor.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\PackageEditor.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\PackageEditor.xaml.cs",
@@ -226,19 +324,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SEP.Viewer\\MainWindow.xaml",
               "ToolTip": "D:\\Projects\\SEP\\SEP.Viewer\\MainWindow.xaml",
               "RelativeToolTip": "SEP.Viewer\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-07-05T10:03:02.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T10:03:02.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "SEP.Database\\DatabaseManager.cs",
@@ -250,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\App.xaml.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\App.xaml.cs",
@@ -262,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "PackageEditor.xaml",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\PackageEditor.xaml",
               "RelativeDocumentMoniker": "SEP.Viewer\\PackageEditor.xaml",
@@ -273,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "SEP.Database\\DatabaseContext.cs",
@@ -285,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "SEP.Database.csproj",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Database\\SEP.Database.csproj",
               "RelativeDocumentMoniker": "SEP.Database\\SEP.Database.csproj",
@@ -293,12 +390,11 @@
               "RelativeToolTip": "SEP.Database\\SEP.Database.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-05T10:48:11.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T10:48:11.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\Projects\\SEP\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -310,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\AssemblyInfo.cs",
@@ -322,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\ViewModels\\MainViewModel.cs",
@@ -334,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "D:\\Projects\\SEP\\SEP.Viewer\\Core\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "SEP.Viewer\\Core\\ViewModelBase.cs",
@@ -343,10 +439,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T12:45:12.528Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
