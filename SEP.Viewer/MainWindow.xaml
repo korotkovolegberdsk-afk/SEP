@@ -26,6 +26,8 @@
             </MenuItem>
 
             <MenuItem Header="_Компоненты"/>
+            <MenuItem Header="_Master Library"
+                      x:Name="MasterLibraryMenuItem"/>
             <MenuItem Header="_Трафареты"/>
             <MenuItem Header="_VisualCAM"/>
             <MenuItem Header="_Mirtec"/>

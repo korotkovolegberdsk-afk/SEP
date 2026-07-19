@@ -248,6 +248,17 @@ public partial class MainWindow : Window
     }
 
 
+
+    private void MasterLibrary_Click(object sender, RoutedEventArgs e)
+    {
+        PackageManagerWindow window = new()
+        {
+            Owner = this
+        };
+
+        window.ShowDialog();
+    }
+
     private void Exit_Click(object sender, RoutedEventArgs e)
     {
         Close();
