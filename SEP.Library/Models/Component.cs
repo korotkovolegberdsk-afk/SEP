@@ -1,36 +1,37 @@
 ﻿namespace SEP.Library.Models;
 
-/// <summary>
-/// Электронный компонент.
-/// Главная сущность SMT Library.
-/// </summary>
 public class Component
 {
-    public int Id { get; set; }
-
-    /// <summary>
-    /// Наименование компонента.
-    /// Например: STM32F407VGT6
-    /// </summary>
+    // Основное имя
     public string Name { get; set; } = "";
 
-    /// <summary>
-    /// Каталожный номер производителя.
-    /// </summary>
+
+    // Производитель
+    public string Manufacturer { get; set; } = "";
+
+
+    // Yamaha / YGX данные
     public string PartNumber { get; set; } = "";
 
-    /// <summary>
-    /// Производитель.
-    /// </summary>
-    public Manufacturer? Manufacturer { get; set; }
+    public int DatabaseNo { get; set; }
 
-    /// <summary>
-    /// Корпус.
-    /// </summary>
-    public Package? Package { get; set; }
 
-    /// <summary>
-    /// Описание.
-    /// </summary>
+    // Корпус
+    public string PackageName { get; set; } = "";
+
+
+    // Геометрия корпуса
+    public double BodyX { get; set; }
+
+    public double BodyY { get; set; }
+
+    public double BodyZ { get; set; }
+
+
+    // Источник данных
+    public string Source { get; set; } = "";
+
+
+    // Дополнительно
     public string Description { get; set; } = "";
 }

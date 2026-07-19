@@ -2,12 +2,15 @@
 using SEP.Import.Interfaces;
 using SEP.Import.Models;
 using SEP.Import.Readers;
+using SEP.Import.Services;
 
 namespace SEP.Import.Parsers;
 
 public class YGXParser : IImportParser
 {
     private readonly YGXReader _reader = new();
+
+    private readonly YGXPackageResolver _resolver = new();
 
 
     public ImportResult Parse(string fileName)
@@ -71,6 +74,11 @@ public class YGXParser : IImportParser
                 BodyZ =
                     GetDouble(p012, "BodyZ")
             };
+
+
+            // Заполнение размеров из стандартной библиотеки,
+            // если Yamaha не дала размеры
+            _resolver.Resolve(component);
 
 
             result.Components.Add(component);
