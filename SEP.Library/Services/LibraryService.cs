@@ -4,13 +4,12 @@ using SEP.Library.Repositories;
 namespace SEP.Library.Services;
 
 /// <summary>
-/// Центральный сервис SMT Library.
+/// Центральный сервис библиотеки SEP.
 /// </summary>
 public class LibraryService
 {
     private readonly ComponentRepository _componentRepository = new();
-
-    private readonly List<Package> _packages = new();
+    private readonly PackageRepository _packageRepository = new();
 
     #region Components
 
@@ -35,7 +34,17 @@ public class LibraryService
 
     public IReadOnlyList<Package> GetPackages()
     {
-        return _packages;
+        return _packageRepository.GetAll();
+    }
+
+    public void AddPackage(Package package)
+    {
+        _packageRepository.Add(package);
+    }
+
+    public void RemovePackage(Package package)
+    {
+        _packageRepository.Remove(package);
     }
 
     #endregion
