@@ -218,6 +218,7 @@
         "packagesPath": "C:\\Users\\Ok\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\SEP\\SEP.Library\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
           "C:\\Users\\Ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -250,6 +251,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "Microsoft.EntityFrameworkCore": "9.0.0",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
+            "Microsoft.Extensions.Logging": "9.0.0"
+          },
           "imports": [
             "net461",
             "net462",
