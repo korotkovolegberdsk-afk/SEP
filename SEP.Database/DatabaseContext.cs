@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SEP.Database.Models;
+using System;
+using System.IO;
 
 namespace SEP.Database;
 
@@ -14,7 +16,18 @@ public class DatabaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=SEP.db");
+        string dataFolder = Path.Combine(
+            AppContext.BaseDirectory,
+            "data");
+
+        // Создаем папку, если ее нет
+        Directory.CreateDirectory(dataFolder);
+
+        string dbPath = Path.Combine(
+            dataFolder,
+            "MasterLibrary.db");
+
+        optionsBuilder.UseSqlite($"Data Source={dbPath}");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

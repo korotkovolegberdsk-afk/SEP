@@ -56,7 +56,41 @@ public class DatabaseManager
                     Height = 0.50,
                     Pitch = 1.25,
                     Pins = 2
-                });
+                },
+                new Package
+                {
+                    Name = "1206",
+                    PackageType = "CHIP",
+                    Description = "Chip Resistor / Capacitor",
+                    Length = 3.20,
+                    Width = 1.60,
+                    Height = 0.60,
+                    Pitch = 1.60,
+                    Pins = 2
+                },
+                new Package
+                {
+                    Name = "SOT23",
+                    PackageType = "SOT",
+                    Description = "Small Outline Transistor",
+                    Length = 2.90,
+                    Width = 1.30,
+                    Height = 1.10,
+                    Pitch = 0.95,
+                    Pins = 3
+                },
+                new Package
+                {
+                    Name = "SOIC-8",
+                    PackageType = "SOIC",
+                    Description = "Small Outline IC",
+                    Length = 4.90,
+                    Width = 3.90,
+                    Height = 1.75,
+                    Pitch = 1.27,
+                    Pins = 8
+                }
+                );
 
             db.SaveChanges();
         }

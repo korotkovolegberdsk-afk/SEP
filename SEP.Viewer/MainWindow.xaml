@@ -8,7 +8,7 @@
 
     <DockPanel>
 
-        <Menu DockPanel.Dock="Top" FontSize="16">
+        <Menu Height="26" DockPanel.Dock="Top" FontSize="16">
             <MenuItem Header="_Файл">
 
                 <MenuItem Header="Открыть базу данных"/>
@@ -27,7 +27,8 @@
 
             <MenuItem Header="_Компоненты"/>
             <MenuItem Header="_Master Library"
-                      x:Name="MasterLibraryMenuItem"/>
+                      x:Name="MasterLibraryMenuItem"
+                  Click="MasterLibrary_Click"/>
             <MenuItem Header="_Трафареты"/>
             <MenuItem Header="_VisualCAM"/>
             <MenuItem Header="_Mirtec"/>
@@ -96,7 +97,7 @@
 
                     </StackPanel>
 
-                    <TreeView x:Name="PackagesTree"/>
+                    <TreeView FontSize="14" x:Name="PackagesTree"/>
 
                 </DockPanel>
 
