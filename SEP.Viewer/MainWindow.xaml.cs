@@ -139,25 +139,25 @@ public partial class MainWindow : Window
         if (item.Tag is not Package package)
             return;
 
-        PackageEditor editor = new(package)
+        PackageEditorWindow editor = new(package)
         {
             Owner = this
         };
 
         if (editor.ShowDialog() == true)
         {
-            _database.UpdatePackage(package);
+            _database.UpdatePackage(editor.CurrentPackage);
 
-            ShowPackage(package);
+            ShowPackage(editor.CurrentPackage);
 
-            item.Header = package.Name;
+            item.Header = editor.CurrentPackage.Name;
         }
     }
 
 
     private void NewPackageButton_Click(object sender, RoutedEventArgs e)
     {
-        PackageEditor editor = new()
+        PackageEditorWindow editor = new()
         {
             Owner = this
         };
@@ -207,14 +207,20 @@ public partial class MainWindow : Window
             Name = src.Name + "_COPY",
             PackageType = src.PackageType,
             Description = src.Description,
+
             Length = src.Length,
             Width = src.Width,
             Height = src.Height,
             Pitch = src.Pitch,
-            Pins = src.Pins
+            Pins = src.Pins,
+
+            StencilThickness = src.StencilThickness,
+            ApertureReduction = src.ApertureReduction,
+            AOIAlgorithm = src.AOIAlgorithm,
+            Notes = src.Notes
         };
 
-        PackageEditor editor = new(copy)
+        PackageEditorWindow editor = new(copy)
         {
             Owner = this
         };
@@ -240,13 +246,28 @@ public partial class MainWindow : Window
     {
         NameText.Text = package.Name;
         TypeText.Text = package.PackageType;
-        DescriptionText.Text = package.Description;
+
         LengthText.Text = $"{package.Length:F2} mm";
         WidthText.Text = $"{package.Width:F2} mm";
         HeightText.Text = $"{package.Height:F2} mm";
-        PinsText.Text = package.Pins.ToString();
-    }
 
+        PinsText.Text = package.Pins.ToString();
+
+        StencilThicknessText.Text =
+            $"{package.StencilThickness:F3} mm";
+
+        ApertureReductionText.Text =
+            $"{package.ApertureReduction:F1} %";
+
+        AOIAlgorithmText.Text =
+            package.AOIAlgorithm;
+
+        NotesText.Text =
+            package.Notes;
+
+        DescriptionText.Text =
+            package.Description;
+    }
 
 
     private void MasterLibrary_Click(object sender, RoutedEventArgs e)
@@ -258,6 +279,7 @@ public partial class MainWindow : Window
 
         window.ShowDialog();
     }
+
 
     private void Exit_Click(object sender, RoutedEventArgs e)
     {

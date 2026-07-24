@@ -10,25 +10,19 @@
 
         <Menu Height="26" DockPanel.Dock="Top" FontSize="16">
             <MenuItem Header="_Файл">
-
                 <MenuItem Header="Открыть базу данных"/>
-
                 <Separator/>
-
                 <MenuItem Header="Импорт YGX..."
                           x:Name="ImportYGXMenuItem"/>
-
                 <Separator/>
-
                 <MenuItem Header="Выход"
                           Click="Exit_Click"/>
-
             </MenuItem>
 
             <MenuItem Header="_Компоненты"/>
             <MenuItem Header="_Master Library"
                       x:Name="MasterLibraryMenuItem"
-                  Click="MasterLibrary_Click"/>
+                      Click="MasterLibrary_Click"/>
             <MenuItem Header="_Трафареты"/>
             <MenuItem Header="_VisualCAM"/>
             <MenuItem Header="_Mirtec"/>
@@ -97,7 +91,8 @@
 
                     </StackPanel>
 
-                    <TreeView FontSize="14" x:Name="PackagesTree"/>
+                    <TreeView FontSize="14"
+                              x:Name="PackagesTree"/>
 
                 </DockPanel>
 
@@ -106,6 +101,7 @@
             <GridSplitter Grid.Column="1"
                           Width="5"
                           HorizontalAlignment="Stretch"/>
+
 
             <Border Grid.Column="2"
                     Margin="5"
@@ -122,16 +118,25 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
 
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="170"/>
+                        <ColumnDefinition Width="200"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock Text="Название:" FontWeight="Bold"/>
-                    <TextBlock Grid.Column="1" x:Name="NameText"/>
+
+                    <TextBlock Text="Название:"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Column="1"
+                               x:Name="NameText"/>
+
 
                     <TextBlock Grid.Row="1"
                                Text="Тип:"
@@ -142,6 +147,7 @@
                                Margin="0,10,0,0"
                                x:Name="TypeText"/>
 
+
                     <TextBlock Grid.Row="2"
                                Text="Длина:"
                                Margin="0,10,0,0"
@@ -150,6 +156,7 @@
                                Grid.Column="1"
                                Margin="0,10,0,0"
                                x:Name="LengthText"/>
+
 
                     <TextBlock Grid.Row="3"
                                Text="Ширина:"
@@ -160,6 +167,7 @@
                                Margin="0,10,0,0"
                                x:Name="WidthText"/>
 
+
                     <TextBlock Grid.Row="4"
                                Text="Высота:"
                                Margin="0,10,0,0"
@@ -168,6 +176,7 @@
                                Grid.Column="1"
                                Margin="0,10,0,0"
                                x:Name="HeightText"/>
+
 
                     <TextBlock Grid.Row="5"
                                Text="Выводов:"
@@ -178,7 +187,48 @@
                                Margin="0,10,0,0"
                                x:Name="PinsText"/>
 
-                    <StackPanel Grid.Row="6"
+
+                    <TextBlock Grid.Row="6"
+                               Text="Толщина трафарета:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="6"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="StencilThicknessText"/>
+
+
+                    <TextBlock Grid.Row="7"
+                               Text="Уменьшение апертуры:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="7"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="ApertureReductionText"/>
+
+
+                    <TextBlock Grid.Row="8"
+                               Text="Алгоритм AOI:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="8"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="AOIAlgorithmText"/>
+
+
+                    <TextBlock Grid.Row="9"
+                               Text="Примечания:"
+                               Margin="0,10,0,0"
+                               FontWeight="Bold"/>
+                    <TextBlock Grid.Row="9"
+                               Grid.Column="1"
+                               Margin="0,10,0,0"
+                               x:Name="NotesText"/>
+
+
+                    <StackPanel Grid.Row="10"
                                 Grid.ColumnSpan="2"
                                 Margin="0,20,0,0">
 

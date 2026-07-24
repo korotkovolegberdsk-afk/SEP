@@ -20,6 +20,18 @@ public class Package
 
     public int Pins { get; set; }
 
+
+    // SMT Engineering fields
+
+    public double StencilThickness { get; set; }
+
+    public double ApertureReduction { get; set; }
+
+    public string AOIAlgorithm { get; set; } = "";
+
+    public string Notes { get; set; } = "";
+
+
     public override string ToString()
     {
         return Name;

@@ -20,7 +20,6 @@ public class DatabaseContext : DbContext
             AppContext.BaseDirectory,
             "data");
 
-        // Создаем папку, если ее нет
         Directory.CreateDirectory(dataFolder);
 
         string dbPath = Path.Combine(
@@ -45,6 +44,12 @@ public class DatabaseContext : DbContext
 
             entity.Property(x => x.Description)
                   .HasMaxLength(500);
+
+            entity.Property(x => x.AOIAlgorithm)
+                  .HasMaxLength(100);
+
+            entity.Property(x => x.Notes)
+                  .HasMaxLength(1000);
         });
 
         base.OnModelCreating(modelBuilder);

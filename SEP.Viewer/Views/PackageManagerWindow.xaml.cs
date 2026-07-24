@@ -1,94 +1,25 @@
 using System.Windows;
-using System.Windows.Controls;
-using SEP.Database;
-using SEP.Database.Models;
+using System.Windows.Input;
 
-namespace SEP.Viewer.Views;
-
-public partial class PackageManagerWindow : Window
+namespace SEP.Viewer.Views
 {
-    private readonly DatabaseManager _database = new();
-
-    public PackageManagerWindow()
+    public partial class PackageManagerWindow : Window
     {
-        InitializeComponent();
-
-        PackageTree.SelectedItemChanged += PackageTree_SelectedItemChanged;
-
-        LoadPackages();
-        SelectFirstPackage();
-    }
-
-    private void LoadPackages()
-    {
-        PackageTree.Items.Clear();
-
-        TreeViewItem passive = new() { Header = "Passive", IsExpanded = true };
-        TreeViewItem transistors = new() { Header = "Transistors", IsExpanded = true };
-        TreeViewItem ic = new() { Header = "IC", IsExpanded = true };
-
-        foreach (Package package in _database.GetPackages())
+        public PackageManagerWindow()
         {
-            TreeViewItem item = new()
-            {
-                Header = package.Name,
-                Tag = package
-            };
-
-            switch (package.PackageType)
-            {
-                case "CHIP":
-                    passive.Items.Add(item);
-                    break;
-                case "SOT":
-                    transistors.Items.Add(item);
-                    break;
-                case "SOIC":
-                    ic.Items.Add(item);
-                    break;
-                default:
-                    passive.Items.Add(item);
-                    break;
-            }
+            InitializeComponent();
         }
 
-        PackageTree.Items.Add(passive);
-        PackageTree.Items.Add(transistors);
-        PackageTree.Items.Add(ic);
-    }
-
-    private void SelectFirstPackage()
-    {
-        foreach (TreeViewItem group in PackageTree.Items)
+        private void PackageTree_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            if (group.Items.Count > 0 && group.Items[0] is TreeViewItem item)
-            {
-                item.IsSelected = true;
-                if (item.Tag is Package p)
-                    ShowPackage(p);
-                return;
-            }
-        }
-    }
+            var editor = new PackageEditorWindow();
 
-    private void PackageTree_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
-    {
-        if (PackageTree.SelectedItem is TreeViewItem item &&
-            item.Tag is Package package)
-        {
-            ShowPackage(package);
-        }
-    }
+            editor.Owner = this;
 
-    private void ShowPackage(Package package)
-    {
-        NameText.Text = package.Name;
-        TypeText.Text = package.PackageType;
-        LengthText.Text = $"{package.Length:F2} mm";
-        WidthText.Text = $"{package.Width:F2} mm";
-        HeightText.Text = $"{package.Height:F2} mm";
-        if (DescriptionText != null) DescriptionText.Text = package.Description;
-        if (PitchText != null) PitchText.Text = $"{package.Pitch:F2} mm";
-        PinsText.Text = package.Pins.ToString();
+            // Передаем выбранный элемент в редактор
+            editor.Tag = PackageTree.SelectedItem;
+
+            editor.ShowDialog();
+        }
     }
 }
